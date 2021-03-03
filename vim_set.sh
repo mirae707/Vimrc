@@ -25,11 +25,11 @@ esac
 # Set vim
 echo "Copy vim configuration"
 mkdir ~/.vim
-cp ~/vim/vimrc.vim ~/.vimrc
-cp -r ~/vim/ftplugin ~/.vim/
+cp ~/vimrc/vimrc.vim ~/.vimrc
+cp -r ~/vimrc/ftplugin ~/.vim/
 
 # Copying Tmux configuration file
-cp ~/vim/tmux.conf ~/.tmux.conf
+cp ~/vimrc/tmux.conf ~/.tmux.conf
  
 echo "Everything is Done!!"
 
