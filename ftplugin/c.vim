@@ -3,7 +3,7 @@
 "nnoremap <leader>rr :!./%<<CR>
 "nnoremap <leader>rm :make<CR>
 
-nmap <C-F5> :w <CR> :!gcc -g % -o %<.out && ./%<.out <CR>
+nmap <C-F5> :w <CR> :!gcc -g -O -Wall -W -pedantic -ansi -std=c99 % -o %<.out && ./%<.out <CR>
 "nmap <C-F5> :w <CR> :!gcc -g % -o %< && ./%< <CR>
 
 " build using makeprg with <F7>
