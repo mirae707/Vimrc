@@ -13,8 +13,9 @@ case $CHOICE in
         python -m pip install --upgrade pip
    ;;
     u)
-        sudo apt install tmux build-essential gdb nodejs npm yarn python3-pip python3-setuptools python3-venv python-is-python3
+        sudo apt install tmux build-essential gdb nodejs npm yarn clangd-11 python3-pip python3-setuptools python3-venv python-is-python3
         python3 -m pip install --upgrade pip
+	sudo update-alternatives --install /usr/bin/clangd clangd /usr/bin/clangd-11 100
    ;;
     f)
         sudo dnf install tmux gdb nodejs npm yarnpkg python3-pip python3-setuptools python3-virtualenv
