@@ -1,7 +1,4 @@
 #!/bin/bash
-echo "Install zsh"
-sudo apt install zsh
-
 echo "Install oh my zsh"
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 

@@ -57,10 +57,15 @@ nnoremap <leader>bq :bp <BAR> bd #<CR>
 " 모든 버퍼와 각 버퍼 상태 출력
 nnoremap <Leader>bl :ls<CR>:b<Space>
 
+" 터미널 열기
 nnoremap <leader>t :term<CR>
-nnoremap <leader>s :w<CR>
-inoremap <leader>s <ESC>:w<CR>
 
+" Ctrl S 로 저장
+noremap <silent> <C-S> :update<CR>
+vnoremap <silent> <C-S> <C-C>:update<CR>
+inoremap <silent> <C-S> <C-O>:update<CR>
+
+"
 " Commenting blocks of code.
 " This specifies the comment character when specifying block comments.
 autocmd FileType c,cpp,java,scala let b:comment_leader = '//'
