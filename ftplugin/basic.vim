@@ -65,19 +65,4 @@ noremap <silent> <C-S> :update<CR>
 vnoremap <silent> <C-S> <C-C>:update<CR>
 inoremap <silent> <C-S> <C-O>:update<CR>
 
-"
-" Commenting blocks of code.
-" This specifies the comment character when specifying block comments.
-autocmd FileType c,cpp,java,scala let b:comment_leader = '//'
-autocmd FileType sh,ruby,python let b:comment_leader = '#'
-autocmd FileType conf,fstab let b:comment_leader = '#'
-autocmd FileType tex let b:comment_leader = '%'
-autocmd FileType mail let b:comment_leader = '>'
-autocmd FileType vim let b:comment_leader = '"'
-
-"this makes it so you can Shift-V highlight lots of text then press ,cc to
-"comment it or ,cu to uncomment.
-noremap <silent> <leader>cc :<C-B>silent <C-E>s/^/<C-R>=escape(b:comment_leader,'\/')<CR>/<CR>:nohlsearch<CR>
-noremap <silent> <leader>cu :<C-B>silent <C-E>s/^\V<C-R>=escape(b:comment_leader,'\/')<CR>//e<CR>:nohlsearch<CR>
-
 let g:termdebug_wide=1     " Termdebug window setting

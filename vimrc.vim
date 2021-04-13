@@ -8,6 +8,7 @@ source $HOME/.vim/ftplugin/basic.vim
 source $HOME/.vim/ftplugin/coc.vim
 source $HOME/.vim/ftplugin/indentline.vim
 source $HOME/.vim/ftplugin/auto-pairs.vim
+source $HOME/.vim/ftplugin/nerdcommenter.vim
 
 " Install vim-plug if not found
 if empty(glob('~/.vim/autoload/plug.vim'))
@@ -26,6 +27,7 @@ Plug 'morhetz/gruvbox'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'yggdroot/indentline'
 Plug 'jiangmiao/auto-pairs'
+Plug 'scrooloose/nerdcommenter'
 
 call plug#end()
 
