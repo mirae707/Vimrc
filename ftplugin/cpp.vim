@@ -1,5 +1,5 @@
-" c dev settings
-nmap <C-F5> :w <CR> :!gcc -g -O -Wall -W -pedantic -ansi -std=c99 % -o %< && ./%<<CR>
+" cpp dev settings
+nmap <C-F5> :w <CR> :!g++ -g -Wall -W % -o %< && ./%<<CR>
 "nmap <C-F5> :w <CR> :!gcc -g % -o %< && ./%< <CR>
 
 " build using makeprg with <F7>
