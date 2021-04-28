@@ -29,6 +29,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'yggdroot/indentline'
 Plug 'jiangmiao/auto-pairs'
 Plug 'scrooloose/nerdcommenter'
+Plug 'dart-lang/dart-vim-plugin'
 
 call plug#end()
 
