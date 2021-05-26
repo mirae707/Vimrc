@@ -3,6 +3,7 @@ autocmd FileType c source $HOME/.vim/ftplugin/c.vim
 autocmd FileType cpp source $HOME/.vim/ftplugin/cpp.vim
 autocmd FileType java source $HOME/.vim/ftplugin/java.vim
 autocmd FileType html,css,js,dart,md source $HOME/.vim/ftplugin/web.vim
+source $HOME/.vim/ftplugin/fugitive.vim
 source $HOME/.vim/ftplugin/nerdtree.vim
 source $HOME/.vim/ftplugin/airline.vim
 source $HOME/.vim/ftplugin/basic.vim
