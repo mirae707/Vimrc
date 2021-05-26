@@ -60,9 +60,13 @@ nnoremap <Leader>bl :ls<CR>:b<Space>
 " 터미널 열기
 nnoremap <leader>t :term<CR>
 
+" 저장
+nnoremap <leader>s :w<CR>
+inoremap <leader>s <ESC>:w<CR>
+
 " Ctrl S 로 저장
-noremap <silent> <C-S> :update<CR>
-vnoremap <silent> <C-S> <C-C>:update<CR>
-inoremap <silent> <C-S> <C-O>:update<CR>
+" noremap <silent> <C-S> :update<CR>
+" vnoremap <silent> <C-S> <C-C>:update<CR>
+" inoremap <silent> <C-S> <C-O>:update<CR>
 
 let g:termdebug_wide=1     " Termdebug window setting
