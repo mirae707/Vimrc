@@ -11,6 +11,7 @@ source $HOME/.vim/ftplugin/coc.vim
 source $HOME/.vim/ftplugin/indentline.vim
 source $HOME/.vim/ftplugin/auto-pairs.vim
 source $HOME/.vim/ftplugin/nerdcommenter.vim
+"source $HOME/.vim/ftplugin/markdown.vim
 
 " Install vim-plug if not found
 if empty(glob('~/.vim/autoload/plug.vim'))
@@ -31,6 +32,7 @@ Plug 'yggdroot/indentline'
 Plug 'jiangmiao/auto-pairs'
 Plug 'scrooloose/nerdcommenter'
 Plug 'dart-lang/dart-vim-plugin'
+Plug 'iamcco/markdown-preview.nvim'
 
 call plug#end()
 
