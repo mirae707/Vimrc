@@ -90,9 +90,9 @@ let g:mkdp_page_title = '「${name}」'
 let g:mkdp_filetypes = ['markdown']
 
 " normal/insert
-<Plug>MarkdownPreview
-<Plug>MarkdownPreviewStop
-<Plug>MarkdownPreviewToggle
+" <Plug>MarkdownPreview
+" <Plug>MarkdownPreviewStop
+" <Plug>MarkdownPreviewToggle
 
 " example
 nmap <C-s> <Plug>MarkdownPreview
