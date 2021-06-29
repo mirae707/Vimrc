@@ -11,8 +11,6 @@ source $HOME/.vim/ftplugin/coc.vim
 source $HOME/.vim/ftplugin/indentline.vim
 source $HOME/.vim/ftplugin/auto-pairs.vim
 source $HOME/.vim/ftplugin/nerdcommenter.vim
-source $HOME/.vim/ftplugin/multipleCursor.vim
-" source $HOME/.vim/ftplugin/markdown.vim
 
 " Install vim-plug if not found
 if empty(glob('~/.vim/autoload/plug.vim'))
@@ -34,7 +32,6 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'scrooloose/nerdcommenter'
 Plug 'dart-lang/dart-vim-plugin'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
-Plug 'terryma/vim-multiple-cursors'
 
 call plug#end()
 
